@@ -1,0 +1,7 @@
+.header-container {
+  @apply hidden md:flex items-center my-5 w-full m-auto justify-center;
+}
+
+.header-item {
+  @apply font-medium text-[18px] w-1/6 flex items-center;
+}

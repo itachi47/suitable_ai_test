@@ -1,0 +1,7 @@
+.search-container {
+  @apply flex items-center justify-center md:justify-start pt-[52px];
+}
+
+.input-box {
+  @apply border border-[#989898] py-2 px-4 rounded-sm w-[350px];
+}

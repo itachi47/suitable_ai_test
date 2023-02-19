@@ -1,0 +1,15 @@
+.stepper-line-solid-before {
+  @apply before:w-[50%] before:h-1 before:border-b before:border-[#0ED746] before:border-4 before:inline-block before:justify-start;
+}
+
+.stepper-line-solid-after {
+  @apply after:w-[50%] after:justify-end after:h-1 after:border-b after:border-[#0ED746] after:border-4 after:inline-block;
+}
+
+.stepper-line-solid-gray-before {
+  @apply before:w-[50%] before:h-1 before:border-b before:border-[#989898] before:border-4 before:inline-block before:justify-start;
+}
+
+.stepper-line-solid-gray-after {
+  @apply after:w-[50%] after:justify-end after:h-1 after:border-b after:border-[#989898] after:border-4 after:inline-block;
+}
