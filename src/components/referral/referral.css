@@ -1,15 +1,23 @@
-.stepper-line-solid-before {
-  @apply before:w-[50%] before:h-1 before:border-b before:border-[#0ED746] before:border-4 before:inline-block before:justify-start;
+.stepper-solid {
+  @apply md:after:w-[50%] md:after:h-1 md:after:border-b md:after:border-[#0ED746] md:after:border-4 md:after:inline-block;
 }
 
-.stepper-line-solid-after {
-  @apply after:w-[50%] after:justify-end after:h-1 after:border-b after:border-[#0ED746] after:border-4 after:inline-block;
+.stepper-solid-gray {
+  @apply md:after:w-[50%] md:after:h-1 md:after:border-b md:after:border-[#989898] md:after:border-4 md:after:inline-block;
 }
 
-.stepper-line-solid-gray-before {
-  @apply before:w-[50%] before:h-1 before:border-b before:border-[#989898] before:border-4 before:inline-block before:justify-start;
+.stepper-solid-before {
+  @apply md:before:w-[50%] md:before:h-1 md:before:border-b md:before:border-[#0ED746] md:before:border-4 md:before:inline-block;
 }
 
-.stepper-line-solid-gray-after {
-  @apply after:w-[50%] after:justify-end after:h-1 after:border-b after:border-[#989898] after:border-4 after:inline-block;
+.stepper-solid-gray-before {
+  @apply md:before:w-[50%] md:before:h-1 md:before:border-b md:before:border-[#989898] md:before:border-4 md:before:inline-block;
+}
+
+.stepper-solid-vertical {
+  @apply after:w-[1px] after:h-[30px] after:border-b after:border-[#0ED746] after:border-2 after:inline-block;
+}
+
+.stepper-solid-vertical-before {
+  @apply before:w-[1px] before:h-[30px] before:border-b before:border-[#0ED746] before:border-2 before:inline-block;
 }
