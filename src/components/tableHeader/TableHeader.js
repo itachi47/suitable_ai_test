@@ -11,10 +11,10 @@ const TableHeader = () => {
     "Reward",
   ];
   return (
-    <ol className="hidden md:flex items-center header-container">
+    <ol className="hidden md:flex my-5 ml-4">
       {headerItem.map((item, idx) => {
         return (
-          <li class="flex w-full items-center justify-around">
+          <li class="md:w-1/6">
             <span class="header-item">{item}</span>
           </li>
         );

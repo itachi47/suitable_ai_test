@@ -15,9 +15,16 @@
 }
 
 .stepper-solid-vertical {
-  @apply after:w-[1px] after:h-[30px] after:border-b after:border-[#0ED746] after:border-2 after:inline-block;
+  @apply after:w-[1px] after:h-[50%] after:border-b after:border-[#0ED746] after:border-2 after:inline-block;
 }
 
 .stepper-solid-vertical-before {
-  @apply before:w-[1px] before:h-[30px] before:border-b before:border-[#0ED746] before:border-2 before:inline-block;
+  @apply before:w-[1px] before:h-[100%] before:border-b before:border-[#0ED746] before:border-2;
+}
+
+.stepper-active {
+  @apply text-[#0ED746];
+}
+
+.stepper-icon {
 }

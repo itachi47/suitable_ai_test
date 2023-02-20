@@ -9,7 +9,7 @@ const dummy_data = [
       name: "Anmol Mahajan",
       profession: "Sr. Engineer",
     },
-    status: "referred",
+    status: "joined",
     reward: {
       amount: 20000,
       credit: false,
@@ -57,7 +57,7 @@ const dummy_data = [
       name: "Anmol Mahajan",
       profession: "Sr. Engineer",
     },
-    status: "joined",
+    status: "referred",
     reward: {
       amount: 20000,
       credit: false,

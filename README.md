@@ -29,8 +29,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/itachi47/minimalist-html-fund-me">
-    <img src="src/images/example.png" alt="Logo" >
+  <a href="https://github.com/itachi47/suitable_ai_test">
+    <img src="src/images/screenshot_01.png" alt="Logo" >
+  </a>
+  <a href="https://github.com/itachi47/suitable_ai_test">
+    <img src="src/images/screenshot_02.png" alt="Logo" >
   </a>
 
 <h3 align="center">React Test</h3>
@@ -170,15 +173,15 @@ Project Link: [https://github.com/itachi47/suitable_ai_test](https://github.com/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/itachi47/minimalist-html-fund-me.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/itachi47/suitable_ai_test.svg?style=for-the-badge
 [contributors-url]: https://github.com/itachi47/suitable_ai_test/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/itachi47/minimalist-html-fund-me.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/itachi47/suitable_ai_test.svg?style=for-the-badge
 [forks-url]: https://github.com/itachi47/suitable_ai_test/network/members
-[stars-shield]: https://img.shields.io/github/stars/itachi47/minimalist-html-fund-me.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/itachi47/suitable_ai_test.svg?style=for-the-badge
 [stars-url]: https://github.com/itachi47/suitable_ai_test/stargazers
-[issues-shield]: https://img.shields.io/github/issues/itachi47/minimalist-html-fund-me.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/itachi47/suitable_ai_test.svg?style=for-the-badge
 [issues-url]: https://github.com/itachi47/suitable_ai_test/issues
-[license-shield]: https://img.shields.io/github/license/itachi47/minimalist-html-fund-me.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/itachi47/suitable_ai_test.svg?style=for-the-badge
 [license-url]: https://github.com/itachi47/suitable_ai_test/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kuldeep-singh-karhana-80835119a/
