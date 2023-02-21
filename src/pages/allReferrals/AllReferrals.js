@@ -1,7 +1,14 @@
 import React from "react";
 import "./all-referrals.css";
-import { Referral, Search, TableHeader, Title } from "../../components";
+import {
+  MobileReferral,
+  Referral,
+  Search,
+  TableHeader,
+  Title,
+} from "../../components";
 import Money from "../../images/money.svg";
+import { useMediaQuery } from "react-responsive";
 
 const dummy_data = [
   {
@@ -14,6 +21,13 @@ const dummy_data = [
       amount: 20000,
       credit: false,
     },
+    stagesCompleted: [
+      { stageName: "satge1", date: "10 August2021", status: true },
+      { stageName: "satge2", date: "10 August2021", status: true },
+      { stageName: "satge3", date: "10 August2021", status: true },
+      { stageName: "satge3", date: "10 August2021", status: false },
+      { stageName: "satge3", date: "10 August2021", status: false },
+    ],
     active: true,
   },
   {
@@ -26,6 +40,12 @@ const dummy_data = [
       amount: 20000,
       credit: false,
     },
+    stagesCompleted: [
+      { stageName: "satge1", date: "10 August2021", status: true },
+      { stageName: "satge2", date: "10 August2021", status: true },
+      { stageName: "satge3", date: "10 August2021", status: true },
+      { stageName: "satge3", date: "10 August2021", status: true },
+    ],
     active: true,
   },
   {
@@ -38,6 +58,11 @@ const dummy_data = [
       amount: 20000,
       credit: true,
     },
+    stagesCompleted: [
+      { stageName: "satge1", date: "10 August2021", status: true },
+      { stageName: "satge2", date: "10 August2021", status: true },
+      { stageName: "satge3", date: "10 August2021", status: false },
+    ],
     active: true,
   },
   {
@@ -50,6 +75,11 @@ const dummy_data = [
       amount: 20000,
       credit: false,
     },
+    stagesCompleted: [
+      { stageName: "satge1", date: "10 August2021", status: true },
+      { stageName: "satge2", date: "10 August2021", status: false },
+      { stageName: "satge3", date: "10 August2021", status: false },
+    ],
     active: false,
   },
   {
@@ -62,6 +92,11 @@ const dummy_data = [
       amount: 20000,
       credit: false,
     },
+    stagesCompleted: [
+      { stageName: "satge1", date: "10 August2021", status: true },
+      { stageName: "satge2", date: "10 August2021", status: false },
+      { stageName: "satge3", date: "10 August2021", status: false },
+    ],
     active: true,
   },
 ];
@@ -77,6 +112,7 @@ const AllReferrals = () => {
   ];
 
   const [referrals, setReferrals] = React.useState(dummy_data);
+  const isMobile = useMediaQuery({ query: "(max-width: 1224px)" });
 
   return (
     <>
@@ -85,9 +121,14 @@ const AllReferrals = () => {
           <Title description="Referral Status" icon={Money} />
           <Search referrals={dummy_data} setReferrals={setReferrals} />
           <div className="referral-container">
-            <TableHeader />
+            {!isMobile && <TableHeader />}
             {referrals.map((referral, idx) => {
-              return (
+              return isMobile ? (
+                <MobileReferral
+                  referral={referral}
+                  gray={(idx & 1) == 0 ? true : false}
+                />
+              ) : (
                 <Referral
                   key={idx}
                   referral={referral}

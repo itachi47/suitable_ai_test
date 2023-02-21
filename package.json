@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "react-responsive": "^9.0.2",
     "tailwindscss": "^0.3.0"
   }
 }
